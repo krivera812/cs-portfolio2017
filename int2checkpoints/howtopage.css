@@ -1,0 +1,23 @@
+body { 
+    background-color: rgb(255, 240, 227);
+}
+
+img{ display: block;
+margin: auto;
+}
+
+h1 { 
+text-align: center
+}
+h2 {
+    border-color: rgb(225, 204, 153); 
+    border-bottom-style: double;
+    border-top-style: double;
+    border-left-style: double;
+    border-right-style:double;
+    
+    text-align: center;
+}
+p {
+    text-align: center 
+}

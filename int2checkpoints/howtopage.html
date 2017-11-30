@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>How to Page: Int 2</title>
+    <link ref = "stylesheet" href="howtopage.css" type="text/class" />
+    
+    
+</head>
+<body>
+    <h1> How to Page</h1>
+    <a href= "https://preview.c9users.io/karebear/csportfolio/int2checkpoints/art.html?_c9_id=livepreview0&_c9_host=https://ide.c9.io"> 
+
+    <img src="http://www.emoji.co.uk/files/microsoft-emojis/food-drink-windows10/8430-peach.png" height="110px"/>
+    </a>
+    <h2> What did I Create? </h2>
+    <p> During this project, I was to make a webpage that included the javascript properties of javascript including conditional (if/else) statements, <br>loops, and functions, all whiles trying to make the page interactive. I did this by creating an image of a peach. When someone would <br>click the mouse the phrase "Stay Peachy" would pop up on screen. It was made, also so that,depending on the position of the click,<br>the colors of the text would change colors. I did this as I like peaches and their color schemes. I also chose to make it so that the <br>phrase "Stay Peachy" would pop up due to the fact that it is a little reminder to be fine. </p>
+    
+    <!--Add image here-->
+    <img src=""/>
+
+<h2>How Did I Make It?</h2>
+
+<h3> Set Up</h3>
+<p> Before starting I created 2 folders labeled art.html and art.js. This creates one page for html and another page for javascript. I then set it up using the given set ups:</p>
+
+<!--Add image here-->
+<img src=""/>
+
+
+<p>Then I changed the name of the script source from JAVASCRIPTFILENAME.js to art.js in the html file. </p>
+
+<!--Add image here-->
+<img src=""/>
+
+<h3>Loop</h3>
+<p> Next I started by giving the background an rgb and a loop. (A loop is something that is performed over and over, hence the name.) I started off by making the background a light pink color to match the peach theme. (rgb: 255, 228, 238). Then, I created a loop. In order to create a loop for this page, I made it so that the variable i started at 0, goes along as i is equal to or less than it's width, and increases by 30 each time. I created another variable "j" that had all the same variables except that j should be less than or equal to its height.
+I then also decided to make the sizes of the circles random by doing var size = random (30) and giving them the same color as the background so only their outline would show. I ended up making the stroke empty (stroke ();) as having black outlines looked harsh against the light tones. By doing all of this, it tells the program where the loop should be positioned and how it should look. 
+</p>
+
+<!-- Add image here -->
+<img src=""/>
+
+<h3>Center Piece</h3>
+<p> After creating a loop, I decided on creating a center piece to this project--the peach. In order to create the peach, I worked in layers to create a depth in the peach. So first I made the stem. In order to do so, I created a rectangle in the position (185,125) and had a width of 5 and a height of 45. I then gave it a brownish grey color in order to imitate a real stem (rgb: 238, 223, 204). I gave it an empty stroke. Next was the leaf that would essentially go over the stem. It was created by making an ellipse that stood at (195, 128) and had a width of 20 and a height of 5. It was then colored in a light green (rgb: 153, 255, 153) and also had no stroke.</p>
+
+<!--Add image here -->
+<img src=""/>
+
+<p>Next was the body of the peach. It in totall would contain four ellipses. I first started with one ellipse that had the position of (200,200),and a width and height of 130. I then gave it a coral color (rgb: 255, 218, 185). I created another ellipse with a position of (190, 200), a width of 135, and a height of 130. It recieved a light orange color (rgb:255, 228, 181). Then I made another ellipse, this time with the position at (180, 193), a width of 100, and a height of 153. It was filled in with the same color as the first ellipse in order to create depth. I then created one last ellipse at (168, 200) which had a width of 115 and a height of 130. It then recieved the same color as the second ellipse.</p>
+
+<!--Add image here -->
+<img src=""/>
+
+<h3>Interactivity</h3>
+<h5>Function</h5>
+<p> To make the phrase "Stay Peachy" show up whenever you click, there first had to be a function that was made that would tell the computer where to make the text show up. I made a function that I labeled drawPeach and set it as function(x, y) (drawPeach = funtion (x,y)). Then in the next line I created the text by using the text function (text ("stay peachy", x, y)). Then in order to make it show up everytime the user clicks on the screen, I made a mouseClicked function. Here I made it so that the x and y axis of drawPeach was wherever the mouse was. </p>
+
+<!--Add image here-->
+<img src""/>
+<h5>Conditionals: If/Else Statements</h5>
+<p> Next I tried to make the text turn into a certain color depending on where the user would click. I used the draw = function() and inserted drawPeach into the parentheses. From there, I created an if statement that told the program that when the mouse clicks at an x axis greater than 200, the text would come out as an orange color. (rgb: 229, 163, 110). But since it would only work at certain points, I created an Else statement that would tell the program to make the text more reddish (rgb: 225, 215, 100) on points less than 200.  </p>
+
+<!--Add image here-->
+<img src""/>
+
+<h2> Things That Did Not Work</h2>
+<p> During the project </p>
+</body>
+</html> 

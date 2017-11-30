@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>How to Page</title>
+    <link ref="stylesheet" href="nav.css" type="text/class"/>
+    <link ref="stylesheet" href="color.css" type="text/class"/>
+</head>
+<body>
+    <h1> How to Page</h1>
+    <ul id="nav">
+        <li> <a href="index.html"> About Me </a></li>
+        <li> <a href="week.html">Week </a></li>
+        <li><a href="favortiethings.html"> Favorite Things</a></li>
+    </ul>
+    
+    <img src="https://media.giphy.com/media/UvPvsX9oMlMWs/giphy.gif" height=200/>
+    <h2> What Did I Create?</h2>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    <p class="thing"> Over the course of two weeks, this Intro to Computer Program has taught me a lot.In order <br>to learn the baiscs of coding, the students (including me) have to create several pages that require HTML and CSS. <br>The most recent page we have created was the About me page, a page dedicated to the maker of the site and what they have learned in the class. </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p class="thing">   
+<h3> Important Vocab</h3>    
+
+    <ul> HTML- Hyper Text Markup Language
+    
+    (uses <>)
+    <li>&lt;title&gt;-the main name of a creators page (</li>
+    <li> &lt;body&gt;body-where the creator's content goes
+    </li>
+    <li> &lt;head&gt;-not seen on the page but contains important <br>information for the browser.
+    </li>
+    <li>&lt;h&gt;-ranging from 1-6, it is the tag resposible for headers</li>
+    <li>&lt;p&gt;-makes paragraph texts</li>
+    <li> links-connect your page to another source</li>
+    <li>&lt;img&gt;-pictures that go into the page</li>
+    <li> ol/ul (ordered list/unordered list)-list items with bullets or numbers
+    </li>
+    <ul>
+        <li> li (list item)-the items in the list</li>
+    
+        
+    </ul>
+    
+    </ul> 
+    <ul>CSS-Cascading Style Sheet
+    
+    (uses {} )
+    <li> class/id-define certain tags so they can be identified differently to similar tags</li> 
+    <li> color- changes the color of a specific tag</li>
+    <li>aligin-determines the placement of a box</li>
+    
+    </ul>
+    
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+ 
+ 
+ <h2>How Did I Make It?</h2>
+<img src="http://www.teamlaplante.com/temp.teamlaplante.com/Logo.png" alt="Image result for css html transparent logo"/>
+
+<h3>The Start</h3>
+<p>So before I really began anything, I placed a ! in the code box and pressed tab. This released a what every html code needs:</p>
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+ 
+ <h5>&lt;!DOCTYPE html&gt;<br/>&lt;html lang=&quot;en&quot;&gt;<br/>&lt;head&gt;<br/>    &lt;meta charset=&quot;UTF-8&quot;&gt;<br/>    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br/>    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;<br/>    &lt;title&gt;Document&lt;/title&gt;<br/>&lt;/head&gt;<br/>&lt;body&gt;<br/>    <br/>&lt;/body&gt;<br/>&lt;/html&gt;</h5>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>After that I proceeded to name the title "About Me"</p>
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+  <h5>&lt;title&gt; About Me &lt;/title&gt;</h5>
+  
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p>This was just so that the page could have a specific name a viewer and browser can recognize it by.<br> I also added a header so that the site could have a title. I ended up also naming it About Me. </p>
+<h5>&lt;h1&gt; About Me &lt;/h1&gt;</h5>
+ 
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+
+<h3>Navbar</h3>
+<p> One thing that I learned how to do recently was how to install a navbar. The navbar helps a viewer find their way around the site. To start the process, I created a CSS file under the name navbar.css. Back in HTML I managed to link it in the head under title in order for them to work together.</p>
+<h5>&lt;head&gt;<br/>    &lt;meta charset=&quot;UTF-8&quot;&gt;<br/>    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br/>    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;<br/>    &lt;title&gt;About Me&lt;/title&gt;<br/>    &lt;link rel=&quot;stylesheet&quot; href=&quot;navbar.css&quot; type=&quot;text/css&quot;/&gt;<br/>&lt;/head&gt;</h5>
+
+
+<p> I made an unordered list, with the id "navbar" (under the &lt;h1&gt;). Underneath that, I added the links to the sites that connected to About Me. 
+It ended up looking like this:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+ 
+ 
+ <h5>&lt;h1&gt; About Me&lt;/h1&gt;<br/>    &lt;ul id=&quot;navbar&quot;&gt;<br/>    &lt;li&gt; &lt;a href=&quot;index.html&quot;&gt; About Me&lt;/a&gt; &lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;aboutmehowto.hmtl&quot;&gt; How to-About Me &lt;/a&gt;&lt;/li&gt;<br/> 
+ &lt;/ul&gt;</h5>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p> In CSS, I used a id attribute that corresponded with the id name in html. (#navbar). I then algined the text to the center for the site to look balanced. I then created the borders around the the navbar buttons inorder to seperate them. This included adding the border color and px, the margin, and the border radius.</p>
+
+<h5>#navbar { text-align: center<br/>;<br/>}<br/>#navbar li {<br/>    border: 2px solid black;<br/>    margin: 5px;<br/>    display:inline-block;<br/>    background-color: white;<br/>    padding:5px;<br/>    border-radius:15px;<br/>}</h5>
+<p>I also ended up adding a hover color just for fun, with the rgb color 255, 237,240.</p>
+
+<h5>#navbar li:hover {background-color:rgb(255, 237, 240);}</h5>
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+
+<h3>Body-Who Am I</h3>
+<p> I started this part off by making a header with the 2nd largest font, naming it "Who Am I?", while adding a solid black border around it in order to draw attention to it. 
+</p>
+<h5>&lt;h2 style= &quot;border: 2px solid black&quot;&gt; Who Am I?&lt;/h2&gt;</h5>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+ <p>I then proceeded to make a paragraph and added facts about myself and what I'm interested in. I also ended up bolding one line as it is one that I think was the most important.</p>
+ <h5>&lt;p&gt; Hi. Welcome to my page. So a little bit about me. My name is Karen. I turned 16 in August and I am currently a junior at SRHS.&lt;br&gt; I don't do sports but I like art; I apprecieate things like drawing and music. (Especially music, I play about 5 instruments.) &lt;br&gt;I like to say that &lt;strong&gt;I'm just a small art and music enthusiast striving to get through high school &lt;/strong&gt;.&lt;br&gt; So far coding has been a good experience for me because I am currently deciding whether or not to go into the medical field or the technologic field when I grow up. &lt;/p&gt;</h5>
+ 
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+ 
+ 
+ <p>I also added 3 photos from the internet that coorelated to what I said and put them above my paragraph by putting the img tag above the paragraph tag. </p>
+ <h5>&lt;img src=&quot;https://media.worldslastchance.com/images/2013/05/04/11022/caduceus-alone.png&quot; height=&quot;200px&quot;/&gt;<br/>    &lt;img src=&quot;http://diysolarpanelsv.com/images/clipart-computer-pictures-15.png&quot; height=&quot;200px&quot;/&gt;<br/>    &lt;img src=&quot;http://images.clipartpanda.com/music-notes-on-staff-clipart-nTBG8dyEc.gif&quot; height=&quot;200px&quot;/&gt;<br/>     &lt;p&gt;</h5>
+ 
+ 
+ <h3>Body-What I Learned</h3>
+ <p> In this section of my site, I ended up making an unordered list. The firrst thing i did was make a list item titled HTML. I ended up linking the title to Khan Academy for people who stumble across my site and also want to learn how to code. </p>
+ <h5>&lt;li&gt; &lt;a href=&quot;https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-html/p/html-basics&quot;/&gt;&lt;strong&gt;HTML&lt;/strong&gt;&lt;/li&gt; &lt;/a&gt;</h5>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+ <p>After, I ended up making a sublist inorder to name off the things I learned that go under the topic of HTML. And repeated the process for CSS</p>
+ 
+ <h5>&lt;ul class=&quot;list&quot;&gt;<br/>            &lt;li&gt; headers (h1-h6) &lt;/li&gt;<br/>            &lt;li&gt; paragraphs (p)&lt;/li&gt;<br/>            &lt;li&gt;lists(ul/ol)&lt;/li&gt;<br/>            &lt;li&gt;images(img)&lt;/li&gt;<br/>            &lt;li&gt;links &lt;/li&gt;<br/>        &lt;/ul&gt;<br/>        <br/><br/>        &lt;li&gt; &lt;a href=&quot;https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-css/p/css-basics&quot;/&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/li&gt;&lt;/a&gt;<br/>        &lt;ul&gt; <br/>        &lt;li&gt;color&lt;/li&gt;<br/>        &lt;li&gt;margins&lt;/li&gt;<br/>        &lt;li&gt;alignments&lt;/li&gt;<br/>        &lt;li&gt;id&lt;/li&gt;<br/>        &lt;li&gt;class&lt;/li&gt;<br/>        &lt;/ul&gt;<br/>        <br/>    &lt;/ul&gt;</h5>
+ 
+ 
+ 
+ 
+ 
+ <h3>Body-CSS</h3>
+ <p> Then I made another CSS page titled "aboutme.css" and linked it under the last link.</p>
+
+<h5>&lt;head&gt;<br/>    &lt;meta charset=&quot;UTF-8&quot;&gt;<br/>    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br/>    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;<br/>    &lt;title&gt;About Me&lt;/title&gt;<br/>    &lt;link rel=&quot;stylesheet&quot; href=&quot;navbar.css&quot; type=&quot;text/css&quot;/&gt;<br/>    &lt;link rel=&quot;stylesheet&quot; href=&quot;aboutme.css&quot; type=&quot;text/css&quot; /&gt;<br/><br/>&lt;/head&gt;</h5>
+
+<p> This was used for the fact that the page seemed completely boring, so I wanted to add colors and align the headers. I wanted the colors to correspond with each other so I chose a light blue for the background and red for the header border backgrounds. And since black text doesn't show up well with red, I made the header text white.</p>
+<h5>body {background-color: rgb(239, 255, 251)
+}<br>
+h1 {
+    text-align: center; }
+<br>
+h2 { text-align: center; background-color: rgb(255, 53, 93); color: white;}
+ 
+ 
+ </h5>
+
+
+<h2>Things to Remember</h2>
+<p> Some of the most important things I will try to remember are the tags and where they go. (That's what determines what your site looks anyways ;)). So</p>
+
+
+
+
+</body>
+
+
+
+
+</html>

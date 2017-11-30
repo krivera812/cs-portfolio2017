@@ -1,0 +1,30 @@
+body {
+ background-image: url("https://hdwallsource.com/img/2015/9/gradient-background-46249-47587-hd-wallpapers.jpg");
+ 
+}
+
+h1 {
+ color: white; 
+ text-align:center;
+ 
+}
+
+
+
+
+ h3{ 
+  border-color: white; 
+ border-bottom-style: double; 
+ border-top-style: double; 
+ border-left-style: double; 
+ border-right-style: double; 
+ text-align: center;
+ color: white;
+  
+ }
+ 
+img {
+ display:block; 
+ margin:auto; 
+}
+p{ text-align: center; color:white;}

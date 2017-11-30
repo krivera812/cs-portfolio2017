@@ -1,0 +1,19 @@
+
+#anothernavbar {
+    text-align: center;
+}
+#anothernavbar li 
+{
+    border: 2px solid black;
+    margin: 5px;
+    display:inline-block;
+    background-color: white;
+    padding:5px;
+    border-radius:15px;
+}
+
+
+#anothernavbar li:hover { 
+    background-color: rgb(221, 196, 255);
+    
+}
